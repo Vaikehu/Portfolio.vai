@@ -1,0 +1,48 @@
+* {
+  scroll-behavior: smooth;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+/*Navbar */
+.navbar-nav {
+  font-size: 18px;
+}
+/*Navbar */
+.btn:hover {
+  color: white;
+}
+/*progress bar */
+.progress {
+  height: 30px;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+.progress:hover {
+  transform: scale(1.1);
+}
+/* card bar */
+.card {
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+.card img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 2px 10px rgb(201, 201, 201);
+}
+
+
+/*Caroucel*/
+.caroucel-item{
+  max-height: 550px;
+}
+
+/*image profil*/
+.img-profil{
+  max-height: 400px;
+}
